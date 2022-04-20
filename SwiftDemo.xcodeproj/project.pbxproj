@@ -26,7 +26,9 @@
 		AE4377E926C4B78600B1AEB3 /* CodableUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4377E826C4B78600B1AEB3 /* CodableUtil.swift */; };
 		AE4377EB26C4B9E100B1AEB3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4377EA26C4B9E100B1AEB3 /* UIImageExtension.swift */; };
 		AE4377ED26C4BB0200B1AEB3 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4377EC26C4BB0200B1AEB3 /* DateExtension.swift */; };
-		C25146A127B6698A005230F3 /* BaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25146A027B6698A005230F3 /* BaseDataModel.swift */; };
+		C25146A127B6698A005230F3 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25146A027B6698A005230F3 /* BaseModel.swift */; };
+		C28F57D9280FEF7D003C321E /* BaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F57D8280FEF7D003C321E /* BaseDataModel.swift */; };
+		C28F57DB280FEFC3003C321E /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F57DA280FEFC3003C321E /* UserInfoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +55,9 @@
 		AE4377EA26C4B9E100B1AEB3 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		AE4377EC26C4BB0200B1AEB3 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		AE84612D26C2104100A0332A /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		C25146A027B6698A005230F3 /* BaseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataModel.swift; sourceTree = "<group>"; };
+		C25146A027B6698A005230F3 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		C28F57D8280FEF7D003C321E /* BaseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataModel.swift; sourceTree = "<group>"; };
+		C28F57DA280FEFC3003C321E /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
 		ECAAFA08BCE988904823499C /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,7 +121,9 @@
 				AE4016DA26B92AAD00A9E019 /* LaunchScreen.storyboard */,
 				AE4016DD26B92AAD00A9E019 /* Info.plist */,
 				AE84612D26C2104100A0332A /* SwiftDemo-Bridging-Header.h */,
-				C25146A027B6698A005230F3 /* BaseDataModel.swift */,
+				C25146A027B6698A005230F3 /* BaseModel.swift */,
+				C28F57D8280FEF7D003C321E /* BaseDataModel.swift */,
+				C28F57DA280FEFC3003C321E /* UserInfoModel.swift */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -261,17 +267,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28F57DB280FEFC3003C321E /* UserInfoModel.swift in Sources */,
 				AE4016D426B92AA800A9E019 /* ViewController.swift in Sources */,
 				AE4377ED26C4BB0200B1AEB3 /* DateExtension.swift in Sources */,
 				AE4016ED26BA32D400A9E019 /* StringExtension.swift in Sources */,
 				AE4016F426BA33E900A9E019 /* GFTextField.swift in Sources */,
-				C25146A127B6698A005230F3 /* BaseDataModel.swift in Sources */,
+				C25146A127B6698A005230F3 /* BaseModel.swift in Sources */,
 				AE4016D026B92AA800A9E019 /* AppDelegate.swift in Sources */,
 				AE4016E526B9304600A9E019 /* NetWork.swift in Sources */,
 				AE4016EB26BA32D400A9E019 /* GFGCD.swift in Sources */,
 				AE4016F726BA344F00A9E019 /* UIViewExtension.swift in Sources */,
 				AE4016F526BA33E900A9E019 /* ToolManager.swift in Sources */,
 				AE4016F326BA33E900A9E019 /* GFButton.swift in Sources */,
+				C28F57D9280FEF7D003C321E /* BaseDataModel.swift in Sources */,
 				AE4377EB26C4B9E100B1AEB3 /* UIImageExtension.swift in Sources */,
 				AE4016D226B92AA800A9E019 /* SceneDelegate.swift in Sources */,
 				AE4377E926C4B78600B1AEB3 /* CodableUtil.swift in Sources */,
