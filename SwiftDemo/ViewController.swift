@@ -24,11 +24,11 @@ class ViewController: UIViewController {
         view.backgroundColor = .red
         #endif
         
-//        NetWork.share.get(path: "/user", param: nil, token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHBpcmVUaW1lIjoiMTY1NzE3Njk0MTQ1MiIsImV4cCI6MTY1NzE3Njk0MSwidXNlcklkIjoiY3Vqanhhd2kiLCJpYXQiOjE2NDk0MDA5NDF9.sJccxprnavfLZf-HqzBqz6oz0HQxQPA3sR1NcP5r63c") { dic in
-//            
-//        } failure: { error in
-//            
-//        }
+        NetWork.share.get(path: "/user", param: nil, token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHBpcmVUaW1lIjoiMTY1NzE3Njk0MTQ1MiIsImV4cCI6MTY1NzE3Njk0MSwidXNlcklkIjoiY3Vqanhhd2kiLCJpYXQiOjE2NDk0MDA5NDF9.sJccxprnavfLZf-HqzBqz6oz0HQxQPA3sR1NcP5r63c") { dic in
+            
+        } failure: { error in
+            
+        }
     }
 
     private lazy var stackView: UIStackView = {
