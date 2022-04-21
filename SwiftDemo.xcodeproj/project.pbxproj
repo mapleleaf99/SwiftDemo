@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CF62ECD55FDCB79C5FC6FD3 /* libPods-SwiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B941915AA8B8FB0339FB70F /* libPods-SwiftDemo.a */; };
+		1E9C813FB93D5348870585B1 /* Pods_SwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5F176322E6F9FA6E649ACCF /* Pods_SwiftDemo.framework */; };
 		AE4016D026B92AA800A9E019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4016CF26B92AA800A9E019 /* AppDelegate.swift */; };
 		AE4016D226B92AA800A9E019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4016D126B92AA800A9E019 /* SceneDelegate.swift */; };
 		AE4016D426B92AA800A9E019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4016D326B92AA800A9E019 /* ViewController.swift */; };
@@ -26,6 +26,7 @@
 		AE4377E926C4B78600B1AEB3 /* CodableUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4377E826C4B78600B1AEB3 /* CodableUtil.swift */; };
 		AE4377EB26C4B9E100B1AEB3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4377EA26C4B9E100B1AEB3 /* UIImageExtension.swift */; };
 		AE4377ED26C4BB0200B1AEB3 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4377EC26C4BB0200B1AEB3 /* DateExtension.swift */; };
+		C22D64E528114091009944D8 /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22D64E428114091009944D8 /* FileManagerExtension.swift */; };
 		C25146A127B6698A005230F3 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25146A027B6698A005230F3 /* BaseModel.swift */; };
 		C28F57D9280FEF7D003C321E /* BaseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F57D8280FEF7D003C321E /* BaseDataModel.swift */; };
 		C28F57DB280FEFC3003C321E /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28F57DA280FEFC3003C321E /* UserInfoModel.swift */; };
@@ -33,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		0ABFFA33D8C01507F489E34C /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
-		3B941915AA8B8FB0339FB70F /* libPods-SwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4016CC26B92AA800A9E019 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4016CF26B92AA800A9E019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE4016D126B92AA800A9E019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,9 +55,11 @@
 		AE4377EA26C4B9E100B1AEB3 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		AE4377EC26C4BB0200B1AEB3 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		AE84612D26C2104100A0332A /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C22D64E428114091009944D8 /* FileManagerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 		C25146A027B6698A005230F3 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		C28F57D8280FEF7D003C321E /* BaseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataModel.swift; sourceTree = "<group>"; };
 		C28F57DA280FEFC3003C321E /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		D5F176322E6F9FA6E649ACCF /* Pods_SwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECAAFA08BCE988904823499C /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CF62ECD55FDCB79C5FC6FD3 /* libPods-SwiftDemo.a in Frameworks */,
+				1E9C813FB93D5348870585B1 /* Pods_SwiftDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +78,7 @@
 		2CC5B6259C99F65BBA9B7CFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B941915AA8B8FB0339FB70F /* libPods-SwiftDemo.a */,
+				D5F176322E6F9FA6E649ACCF /* Pods_SwiftDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +154,7 @@
 		AE4016F826BA360F00A9E019 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C22D64E428114091009944D8 /* FileManagerExtension.swift */,
 				AE4016EA26BA32D400A9E019 /* StringExtension.swift */,
 				AE4016F626BA344F00A9E019 /* UIViewExtension.swift */,
 				AE4377EA26C4B9E100B1AEB3 /* UIImageExtension.swift */,
@@ -181,6 +184,7 @@
 				AE4016C826B92AA800A9E019 /* Sources */,
 				AE4016C926B92AA800A9E019 /* Frameworks */,
 				AE4016CA26B92AA800A9E019 /* Resources */,
+				4187FF57D6ECF04C00B2CA18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,6 +242,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4187FF57D6ECF04C00B2CA18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftDemo/Pods-SwiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6134C63EF41FEC5323ECB017 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,6 +302,7 @@
 				AE4016F326BA33E900A9E019 /* GFButton.swift in Sources */,
 				C28F57D9280FEF7D003C321E /* BaseDataModel.swift in Sources */,
 				AE4377EB26C4B9E100B1AEB3 /* UIImageExtension.swift in Sources */,
+				C22D64E528114091009944D8 /* FileManagerExtension.swift in Sources */,
 				AE4016D226B92AA800A9E019 /* SceneDelegate.swift in Sources */,
 				AE4377E926C4B78600B1AEB3 /* CodableUtil.swift in Sources */,
 				AE4016F226BA33E900A9E019 /* GFDottedLine.swift in Sources */,
@@ -443,7 +465,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.modulemap\" -Xcc -fmodule-map-file=\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.modulemap\"";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -Xcc -Xcc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.SwiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG TEST";
